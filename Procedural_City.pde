@@ -25,6 +25,7 @@ void setup() {
 }
 
 void draw() {
+  perspective(PI/3.0, width/height, 0.1, 5000);
   addLights();
 
   for (Block b : world) {
